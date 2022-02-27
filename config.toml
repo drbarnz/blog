@@ -1,5 +1,5 @@
 # The URL the site will be built for
-base_url = "https://blog.drbar.nz"
+base_url = "https://blog.dbarnett.nz"
 
 compile_sass = true
 
@@ -16,7 +16,6 @@ taxonomies = [
 	{ name = "categories", feed = true, paginate_by = 10 },
 	{ name = "tags", feed = true, paginate_by = 10 },
 ]
-languages = []
 
 [markdown]
 highlight_code = true
@@ -81,8 +80,8 @@ avatar = "/images/avatar.png"
 
 # Social link setup
 [extra.social]
-github = "drbarnz"
-twitter = "drbarnz"
+github = "dbanetto"
+twitter = "dbanetto"
 
 # To add google analytics
 # [extra.analytics]

@@ -1,4 +1,4 @@
-# blog.drbar.nz
+# blog.dbarnett.nz
 
 This site is built using [zola](https://www.getzola.org/)
 
@@ -13,6 +13,6 @@ Pre-requisites are:
 
 To setup up for local work:
  1. `git submodule update --init --recursive`
- 2. `zola serve`git submodule update --init --recursive
+ 2. `zola serve`
  3. navigate to [localhost:1111](http://localhost:1111)
  4. Happy writing
