@@ -58,12 +58,12 @@ be able to make this site without these cool people, so big thanks to:
  * [RatanShreshtha/DeepThought](https://github.com/RatanShreshtha/DeepThought)
      for the very snazzy theme.
  * And [You](https://love-live.fandom.com/wiki/You_Watanabe) <!-- best girl --> too,
-     for spending your time & data to see, read, wish you didn't then laugh at this meta text.
+     for spending your time &amp; data to see, read, wish you didn't then laugh at this meta text.
 
 Also shout outs to some cool people:
 
  * Might be wondering _"damn that's a cool pfp"_ that was by the great
-     [@bugpip_](https://twitter.com/bugpup_)
+     [@grubkiss](https://twitter.com/grubkiss)
  * [mango.pdf.zone](https://mango.pdf.zone/) or [@mangopdf](https://twitter.com/mangopdf), they have been a great inspiration in acceptable ~~memes~~ writing styles.
  * [@__steele](https://twitter.com/__steele) that has successfully started a co-woker blog race, with [complementary blog link](https://awsteele.com/)
 
