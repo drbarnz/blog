@@ -85,11 +85,11 @@ to confirm a slack instance.
 
 Is Slack emojis good for storing important information?
 
-> No, but this is not an invitation to start using GUID's as emoji names nor to stop making wholesome meme of colleagues **with their consent**.
+> No, but this is not an invitation to start using GUID's as emoji names nor to stop making wholesome memes of colleagues **with their consent**.
 
 So why are Slack emojis public?
 
-> lol, no idea. Probably cause of some ~legacy~ money generating systems
+> lol, no idea. Probably cause of some ~~legacy~~ money generating systems
 
 Should I save my companies Slack's `${team_id}` before I leave so I can download all my emojis later??
 
