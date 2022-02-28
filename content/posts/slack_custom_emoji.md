@@ -1,6 +1,6 @@
 +++
 title = "Slack custom emoji shinighans"
-description = "Having a "
+description = "Having a look at everyone's favourite feature in Slack"
 date = 2022-02-28
 updated = 2022-02-28
 
