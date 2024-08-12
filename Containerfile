@@ -12,7 +12,7 @@ WORKDIR /project
 RUN ["zola", "check"]
 RUN ["zola", "build"]
 
-FROM ghcr.io/static-web-server/static-web-server:2 as host
+FROM ghcr.io/static-web-server/static-web-server:2 as prod
 WORKDIR /
 COPY --from=build /project/public /public
 EXPOSE 80
