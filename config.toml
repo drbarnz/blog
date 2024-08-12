@@ -3,6 +3,8 @@ base_url = "https://blog.dbarnett.nz"
 
 compile_sass = true
 
+# When set to "true", a search index is built from the pages and section
+# content for `default_language`.
 build_search_index = true
 
 title = "Title can be filled in later"
@@ -44,10 +46,6 @@ paths = "on"
 taxonomies = "on"
 anchors = "on"
 
-# When set to "true", a search index is built from the pages and section
-# content for `default_language`.
-build_search_index = true
-
 [search]
 # Whether to include the title of the page/section in the index
 include_title = true
@@ -82,12 +80,3 @@ avatar = "/images/avatar.png"
 # Social link setup
 [extra.social]
 github = "dbanetto"
-twitter = "dbanetto"
-
-# To add google analytics
-# [extra.analytics]
-# google = "<your_gtag>"
-
-# To add hyvor comments
-# [extra.commenting]
-# hyvor = "<your_website_id>"
