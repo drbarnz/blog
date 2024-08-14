@@ -24,7 +24,7 @@ function makeTeaser(body, terms) {
   });
   var termFound = false;
   var index = 0;
-  var weighted = []g
+  var weighted = [];
 
   var sentences = body.toLowerCase().split(". ");
 
@@ -115,7 +115,7 @@ function formatSearchResultItem(item, terms) {
     `<div class='content mt-2'>` +
     `${makeTeaser(item.doc.body, terms)}` +
     `<a class='read-more' href='${item.ref}'>` +
-    `Read More <span class="icon is-small"><i class="fas fa-arrow-right fa-xs"></i></span>` +
+    `Read More` +
     `</a>` +
     `</div>` +
     `</article>`
@@ -197,13 +197,5 @@ $(document).ready(function () {
 
   $("#search").keyup(function () {
     search();
-  });
-
-  $(".chart").each(function (index) {
-    $(this).attr("id", `chart-${index}`);
-
-    var svg = document.querySelector(`#chart-${index}`);
-    var { type, ...chartData } = JSON.parse($(this).text());
-    new chartXkcd[type](svg, chartData);
   });
 });

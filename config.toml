@@ -53,6 +53,7 @@ include_title = true
 include_description = false
 # Whether to include the rendered content of the page/section in the index
 include_content = true
+index_format = "elasticlunr_javascript"
 
 [translations]
 

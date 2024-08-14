@@ -20,28 +20,13 @@
 
 {% macro  page_publish_metadata(page) %}
 <p class='has-text-grey'>
-	<span class='icon'>
-		<i class='fas fa-user'></i>
-	</span>
-	{{ config.extra.author.name }}
-	published on
-	<span class='icon'>
-		<i class='far fa-calendar-alt'></i>
-	</span>
-	<time datetime='{{page.date}}'>{{ page.date | date(format='%B %d, %Y') }}</time>
+	{{ config.extra.author.name }} published on <time datetime='{{page.date}}'>{{ page.date | date(format='%B %d, %Y') }}</time>
 </p>
 {% endmacro %}
 
 {% macro page_content_metadata(page) %}
 <p class='has-text-grey'>
-	<span class='icon'>
-		<i class='far fa-clock'></i>
-	</span>
-	{{page.reading_time}} min,
-	<span class='icon'>
-		<i class='fas fa-pencil-alt'></i>
-	</span>
-	{{page.word_count}} words
+	🕰️ {{page.reading_time}} min, {{page.word_count}} words
 </p>
 {% endmacro %}
 
@@ -51,7 +36,7 @@
 	<span class="has-text-black has-text-weight-normal">Categories:</span>
 	{% for category in categories %}
 	<a class='link has-text-weight-light' href='{{ get_taxonomy_url(kind='categories', name=category) }}'>
-		<span class='icon is-small'><i class='fas fa-folder fa-xs'></i></span>{{ category }}
+		{{ category }}
 	</a>
 	{% endfor %}
 </p>
@@ -63,7 +48,7 @@
 	<span class="has-text-black has-text-weight-normal">Tags:</span>
 	{% for tag in tags %}
 	<a class='link has-text-weight-light' href='{{ get_taxonomy_url(kind='tags', name=tag) }}'>
-		<span class='icon is-small'><i class='fas fa-tag fa-xs'></i></span>{{ tag }}
+		{{ tag }}
 	</a>
 	{% endfor %}
 </p>

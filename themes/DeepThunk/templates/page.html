@@ -70,16 +70,14 @@
 					{% if page.later %}
 					<div class='level-item has-text-centered'>
 						<a href='{{ page.later.permalink }}' class='button is-black is-outlined'>
-							<span class='icon mr-2'><i
-									class='fas fa-arrow-circle-left'></i></span>{{ page.later.title }}
+							{{ page.later.title }}
 						</a>
 					</div>
 					{% endif %}
 					{% if page.earlier %}
 					<div class='level-item has-text-centered'>
 						<a href='{{ page.earlier.permalink }}' class='button is-black is-outlined'>
-							{{ page.earlier.title }}<span class='icon ml-2'><i
-									class='fas fa-arrow-circle-right'></i></span>
+							{{ page.earlier.title }}
 						</a>
 					</div>
 					{% endif %}
@@ -87,8 +85,7 @@
 					{% if page.heavier %}
 					<div class='level-item has-text-centered'>
 						<a href='{{ page.heavier.permalink }}' class='button is-black is-outlined'>
-							<span class='icon mr-2'><i
-									class='fas fa-arrow-circle-left'></i></span>{{ page.heavier.title }}
+							{{ page.heavier.title }}
 						</a>
 					</div>
 					{% endif %}
@@ -96,8 +93,7 @@
 					{% if page.lighter %}
 					<div class='level-item has-text-centered'>
 						<a href='{{ page.lighter.permalink }}' class='button is-black is-outlined'>
-							{{ page.lighter.title }}<span class='icon ml-2'><i
-									class='fas fa-arrow-circle-right'></i></span>
+							{{ page.lighter.title }}
 						</a>
 					</div>
 					{% endif %}
@@ -112,16 +108,3 @@
 	</div>
 </main>
 {% endblock main %}
-
-{% block custom_js %}
-{% if page.extra.comments and config.extra.commenting.hyvor %}
-<script type='text/javascript'>
-	var HYVOR_TALK_WEBSITE = {{ config.extra.commenting.hyvor }};
-	var HYVOR_TALK_CONFIG = {
-		url: window.location.href,
-		id: window.btoa(encodeURIComponent(escape(window.location.href)))
-	};
-</script>
-<script async type="text/javascript" src="//talk.hyvor.com/web-api/embed"></script>
-{% endif %}
-{% endblock %}

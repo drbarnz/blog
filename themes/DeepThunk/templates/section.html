@@ -36,9 +36,7 @@
 					<p>{{ macros::page_publish_metadata(page=page) }}</p>
 					<div class='content mt-2'>
 						{{ page.summary | safe }}
-						<a class='read-more' href='{{ page.permalink }}'>
-							Read More <span class="icon is-small"><i class="fas fa-arrow-right fa-xs"></i></span>
-						</a>
+						<a class='read-more' href='{{ page.permalink }}'>Read More</a>
 					</div>
 
 					<div class='columns'>
@@ -61,16 +59,12 @@
 		<nav class='level'>
 			{% if paginator.previous %}
 			<div class='level-item has-text-centered'>
-				<a href='{{ paginator.previous }}' class='button is-black is-outlined'>
-					<span class='icon mr-2'><i class='fas fa-arrow-circle-left'></i></span> Previous Page
-				</a>
+				<a href='{{ paginator.previous }}' class='button is-black is-outlined'>Previous Page</a>
 			</div>
 			{% endif %}
 			{% if paginator.next %}
 			<div class='level-item has-text-centered'>
-				<a href='{{ paginator.next }}' class='button is-black is-outlined'>
-					Next Page <span class='icon ml-2'><i class='fas fa-arrow-circle-right'></i></span>
-				</a>
+				<a href='{{ paginator.next }}' class='button is-black is-outlined'>Next Page</a>
 			</div>
 			{% endif %}
 		</nav>

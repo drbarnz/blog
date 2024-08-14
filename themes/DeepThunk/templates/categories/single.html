@@ -5,7 +5,7 @@
 	<div class="hero-body">
 		<div class="container">
 			<h1 class="title has-text-centered">
-				<span class="icon"><i class="fas fa-folder"></i></span> {{ term.name }}
+				{{ term.name }}
 			</h1>
 		</div>
 	</div>
@@ -32,9 +32,7 @@
 
 					<p>{{ macros::page_publish_metadata(page=page) }}</p>
 
-					<a class="read-more" href="{{ page.permalink }}">
-						Read More <span class="icon is-small"><i class="fas fa-arrow-right fa-xs"></i></span>
-					</a>
+					<a class="read-more" href="{{ page.permalink }}">Read More</a>
 				</article>
 				{% if not loop.last %}
 				<hr />{% endif %}
@@ -46,14 +44,14 @@
 			{% if paginator.previous %}
 			<div class="level-item has-text-centered">
 				<a href="{{ paginator.previous }}" class="button is-black is-outlined">
-					<span class="icon mr-2"><i class="fas fa-arrow-circle-left"></i></span> Previous Page
+					Previous Page
 				</a>
 			</div>
 			{% endif %}
 			{% if paginator.next %}
 			<div class="level-item has-text-centered">
 				<a href="{{ paginator.next }}" class="button is-black is-outlined">
-					Next Page <span class="icon ml-2"><i class="fas fa-arrow-circle-right"></i></span>
+					Next Page
 				</a>
 			</div>
 			{% endif %}
