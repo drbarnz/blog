@@ -3,15 +3,16 @@ base_url = "https://blog.dbarnett.nz"
 
 compile_sass = true
 
+# When set to "true", a search index is built from the pages and section
+# content for `default_language`.
 build_search_index = true
 
 title = "Title can be filled in later"
 default_language = "en"
 
-theme = "DeepThought"
+generate_feeds = true
+feed_filenames = [ "rss.xml" ]
 
-generate_feed = true
-feed_filename = "rss.xml"
 taxonomies = [
 	{ name = "categories", feed = true, paginate_by = 10 },
 	{ name = "tags", feed = true, paginate_by = 10 },
@@ -43,10 +44,6 @@ paths = "on"
 taxonomies = "on"
 anchors = "on"
 
-# When set to "true", a search index is built from the pages and section
-# content for `default_language`.
-build_search_index = true
-
 [search]
 # Whether to include the title of the page/section in the index
 include_title = true
@@ -54,6 +51,7 @@ include_title = true
 include_description = false
 # Whether to include the rendered content of the page/section in the index
 include_content = true
+index_format = "elasticlunr_javascript"
 
 [translations]
 
@@ -81,12 +79,3 @@ avatar = "/images/avatar.png"
 # Social link setup
 [extra.social]
 github = "dbanetto"
-twitter = "dbanetto"
-
-# To add google analytics
-# [extra.analytics]
-# google = "<your_gtag>"
-
-# To add hyvor comments
-# [extra.commenting]
-# hyvor = "<your_website_id>"

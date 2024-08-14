@@ -57,8 +57,7 @@ be able to make this site without these cool people, so big thanks to:
      is made with.
  * [RatanShreshtha/DeepThought](https://github.com/RatanShreshtha/DeepThought)
      for the very snazzy theme.
- * And [You](https://love-live.fandom.com/wiki/You_Watanabe) <!-- best girl --> too,
-     for spending your time &amp; data to see, read, wish you didn't then laugh at this meta text.
+ * And You too, for spending your time &amp; data to see, read, wish you didn't then laugh at this meta text.
 
 Also shout outs to some cool people:
 
