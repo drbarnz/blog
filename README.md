@@ -2,7 +2,7 @@
 
 This site is built using [zola](https://www.getzola.org/)
 
-Using the theme [DeepThought](https://github.com/RatanShreshtha/DeepThought)
+Using a fork of [DeepThought](https://github.com/RatanShreshtha/DeepThought)
 
 ## Setup
 
