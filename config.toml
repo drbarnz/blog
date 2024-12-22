@@ -1,5 +1,5 @@
 # The URL the site will be built for
-base_url = "https://blog.dbarnett.nz"
+base_url = "https://blog.rnett.nz"
 
 compile_sass = true
 

@@ -1,4 +1,4 @@
-# blog.dbarnett.nz
+# blog.rnett.nz
 
 This site is built using [zola](https://www.getzola.org/)
 
