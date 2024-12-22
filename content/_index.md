@@ -16,22 +16,23 @@ Anyway, so here we go:
 
 Great question, I would like to know as well. For what I do know
 
-I get paid to tap on the computers, it has been ride so far & I have it on good
-authority that ride never ends. Though it strangely always ends with a cabin in
-the woods...
+I am paid to tap on the computers, it has been ride so far & I have it on good
+authority that ride never ends.
 
 So far I've had to very _professionally_ deal with these headaches:
- * big AWS, with lot of enterprise
- * _Cyber_ Security, mainly in the cloud department with some application stuff
- * Identity & Access management with too many people
- * shoving code where it should & should not go
+ * *Kubernetes*, and making it do some interesting things.
+ * *Bazel* to reproducibly build a lot of YAML.
+ * *AWS IAM* & account management, with too many accounts than anyone needs.
+ * _Cyber_ Security, mainly in the Cloud area, and some application stuff sprinkled in.
+ * *Identity & Access* management with a tree of too many people
+ * Shoving *Go*, *Python* and *Rust* code where it should & should not _go_.
 
 Weirdly enough those will probably be the main topics of this place.
 
 ### What to expect?
 
-A scale of writing ability that goes from stream of thoughts to
-academia report due tomorrow.
+An invariable level of writing ability that goes from stream of thoughts to
+an academia report that is due tomorrow.
 I won't delude any expectations that it is any good but at least I've
 had some fun writing it.
 
@@ -40,10 +41,12 @@ had some fun writing it.
 It is what all the cool cats do these days and I wanted to be apart of the cool
 crowd this time.
 
+Plus, it helps to form an idea by writing it down than just thinking about it on a bus.
+
 ### What do I really want this for?
 
 Really, my goal is to record some of my learnings so that others might be
-able to share the pain, save some time or even (big dream here) teach someone
+able to share the pain, save some time or even (big _IF_ here) teach someone
 something.
 
 I am aware my main audience is myself in 5 months when I forget what I
@@ -57,14 +60,11 @@ be able to make this site without these cool people, so big thanks to:
      is made with.
  * [RatanShreshtha/DeepThought](https://github.com/RatanShreshtha/DeepThought)
      for the very snazzy theme.
- * And You too, for spending your time &amp; data to see, read, wish you didn't then laugh at this meta text.
-
-Also shout outs to some cool people:
-
  * Might be wondering _"damn that's a cool pfp"_ that was by the great
      [@grubkiss](https://twitter.com/grubkiss)
  * [mango.pdf.zone](https://mango.pdf.zone/) or [@mangopdf](https://twitter.com/mangopdf), they have been a great inspiration in acceptable ~~memes~~ writing styles.
  * [@__steele](https://twitter.com/__steele) that has successfully started a co-woker blog race, with [complementary blog link](https://awsteele.com/)
+ * And You too, for spending your time &amp; data to see, read, wish you didn't then laugh at this meta text.
 
 ## How to report a wrong
 
